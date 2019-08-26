@@ -23,5 +23,5 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  
+  return [].concat(drivers).unshift(name)
 }
